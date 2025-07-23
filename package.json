@@ -1,0 +1,31 @@
+{
+  "name": "shopping-list",
+  "version": "1.0.0",
+  "description": "A dockerized full stack shopping list application that uses a NodeJS backend with JWT authentication, a ReactJS frontend, a PostgreSQL database with Prisma ORM. ",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Mikkel Thestrup <mithe24@student.sdu.dk> (https://github.com/mithe24)",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "@prisma/client": "^6.12.0",
+    "bcryptjs": "^3.0.2",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "pg": "^8.16.3",
+    "prisma": "^6.12.0",
+    "zod": "^4.0.5"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.6",
+    "@types/express": "^5.0.3",
+    "@types/jsonwebtoken": "^9.0.10",
+    "@types/node": "^24.0.14",
+    "typescript": "^5.8.3"
+  }
+}
